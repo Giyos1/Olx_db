@@ -1,4 +1,3 @@
-
 create or replace function create_post(user_id_f int, title_f text, description_f text, price_f numeric, category_f int,
                                        location_f text) returns record as
 $$
@@ -25,3 +24,5 @@ SELECT create_post(
                2,
                'Tashkent, UZB'
        );
+
+-- 5 Baho
