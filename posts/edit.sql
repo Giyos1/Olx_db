@@ -2,7 +2,7 @@ CREATE OR REPLACE FUNCTION delete_listing(p_listing_id INT)
 RETURNS VOID as $$
     BEGIN
         UPDATE Listings
-        SET status = 'inactive', updated_at= CURRENT_TIMESTAMP
+        SET status = 'inactive'
         WHERE id = p_listing_id;
     end;
     $$LANGUAGE plpgsql;
