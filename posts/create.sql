@@ -25,3 +25,5 @@ SELECT create_post(
                2,
                'Tashkent, UZB'
        );
+
+-- 5 Baho
